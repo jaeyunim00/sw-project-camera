@@ -33,7 +33,7 @@ export default function MyCamera() {
       });
 
       // 원하는 API 엔드포인트 주소를 여기에 입력합니다.
-      const response = await axios.post('http://3.34.56.243:8000/upload', formData, {
+      const response = await axios.post('http://172.20.91.217:8000/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
